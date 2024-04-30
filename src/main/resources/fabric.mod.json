@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ultrazoom",
+  "version": "${version}",
+  "name": "UltraZoom",
+  "description": "UltraZoom lets u zoom, pretty much yeah",
+  "languageAdapters": {
+
+  },
+  "authors": ["Preva1l"],
+  "contact": {
+    "repo": "https://github.com/prodpreva1l/UltraZoom",
+    "issues": "https://discord.gg/4KcF7S94HF"
+  },
+  "license": "BSD-2-Clause-FreeBSD",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "info.preva1l.ultrazoom.UltraZoom"
+    ]
+  },
+  "mixins": [
+    "ultrazoom.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

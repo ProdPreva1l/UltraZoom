@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "info.preva1l.ultrazoom.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "RenderMixin",
+    "ScrollMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
